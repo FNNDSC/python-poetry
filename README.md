@@ -1,5 +1,6 @@
 # Python Poetry Docker Image
 
+[![Version](https://img.shields.io/docker/v/fnndsc/python-poetry?sort=semver)](https://hub.docker.com/r/fnndsc/python-poetry)
 [![GitHub last commit](https://img.shields.io/github/last-commit/FNNDSC/python-poetry)](https://github.com/FNNDSC/python-poetry)
 [![Build](https://github.com/FNNDSC/python-poetry/actions/workflows/build.yml/badge.svg)](https://github.com/FNNDSC/python-poetry/actions)
 
