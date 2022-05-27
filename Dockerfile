@@ -1,4 +1,4 @@
-ARG BASE=docker.io/fnndsc/conda:python3.10.2
+ARG BASE=docker.io/fnndsc/conda:python3.10.4
 FROM $BASE as base
 
 
