@@ -12,7 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      POETRY_VERSION: 1.4.1
+      PYTHON_VERSION: 3.11.3
+      POETRY_VERSION: 1.5.1
     steps:
       - uses: docker/setup-qemu-action@v2
       - uses: docker/setup-buildx-action@v2
