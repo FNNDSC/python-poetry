@@ -16,5 +16,6 @@ ARG PYTHON_VERSION
 ARG POETRY_VERSION
 RUN micromamba install -y -n base -c conda-forge \
     poetry=$POETRY_VERSION python=$PYTHON_VERSION \
-    && micromamba clean --all --yes
+    && micromamba clean --all --yes \
+    && rm -rf /opt/conda/pkgs
 ENV PATH=/opt/conda/bin:$PATH
